@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: #0a7c3a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.section {
+  background: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+h2 {
+  color: #0a7c3a;
+}
+
+.teams {
+  list-style: none;
+  padding: 0;
+}
+
+.teams li {
+  background: #e8f5e9;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background: #e0e0e0;
+}
+
+button {
+  background: #0a7c3a;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #08662f;
+}
+
+input {
+  padding: 8px;
+  margin: 5px;
+}
+
+.footer {
+  text-align: center;
+  padding: 15px;
+  background: #ddd;
+}

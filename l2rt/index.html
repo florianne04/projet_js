@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CAN - Mini Projet</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Coupe d'Afrique des Nations</h1>
+      <p>Devoir Manipulation du DOM et les evenements</p>
+    </header>
+
+    <!-- Équipes -->
+    <section class="section">
+      <h2>Équipes participantes</h2>
+
+      <ul class="teams" id="teamList">
+        <li>Sénégal</li>
+        <li>Maroc</li>
+        <li>Côte d'Ivoire</li>
+        <li>Nigeria</li>
+      </ul>
+    </section>
+
+    <!-- Matchs -->
+    <section class="section">
+      <h2>Matchs</h2>
+
+      <table id="matchTable">
+        <thead>
+          <tr>
+            <th>Équipe 1</th>
+            <th>Score</th>
+            <th>Équipe 2</th>
+          </tr>
+        </thead>
+        <tbody id="matchList">
+          <tr>
+            <td>Sénégal</td>
+            <td>2 - 0</td>
+            <td>Gambie</td>
+          </tr>
+          <tr>
+            <td>Maroc</td>
+            <td>1 - 1</td>
+            <td>Égypte</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Formulaire -->
+    <section class="section">
+      <h2>Ajouter un match</h2>
+
+      <form id="matchForm">
+        <input type="text" placeholder="Équipe 1" id="team1" />
+        <input type="text" placeholder="Score (ex: 2 - 1)" id="score" />
+        <input type="text" placeholder="Équipe 2" id="team2" />
+        <button type="button" id="btnAddMatch">Ajouter</button>
+      </form>
+    </section>
+
+    <!-- Consigne -->
+
+    <section class="section" style="background-color: #cce4d2">
+      <h2>Consigne</h2>
+
+      <p><strong>DEVOIR JAVASCRIPT - DOM & ÉVÉNEMENTS</strong></p>
+      <p><strong>Thème :</strong> Coupe d'Afrique des Nations (CAN)</p>
+
+      <h3>Objectif</h3>
+      <p>
+        Rendre la page web interactive en utilisant JavaScript, le DOM et les
+        événements. Le HTML et le CSS sont déjà fournis.
+      </p>
+
+      <h3>Travail demandé</h3>
+
+      <h4>1. Équipes participantes</h4>
+      <ul>
+        <li>
+          Un tableau JavaScript contenant les pays qualifiés à la CAN est
+          fourni.
+        </li>
+        <li>
+          Charger dynamiquement ce tableau dans la section
+          <strong>« Équipes participantes »</strong>.
+        </li>
+        <li>Aucune équipe ne doit être écrite directement dans le HTML.</li>
+      </ul>
+
+      <h4>2. Ajouter un match</h4>
+      <p>Dans le formulaire <strong>Ajouter un match</strong> :</p>
+      <ul>
+        <li>Équipe 1 et Équipe 2 ne doivent jamais être identiques.</li>
+        <li>
+          Équipe 1 et Équipe 2 doivent obligatoirement figurer dans la liste des
+          équipes participantes.
+        </li>
+        <li>
+          Si une condition n'est pas respectée, le match n'est pas ajouté.
+        </li>
+        <li>
+          Si tout est correct, le match est ajouté dans le tableau
+          <strong>Matchs</strong>.
+        </li>
+      </ul>
+
+      <h3>Niveau</h3>
+      <p><strong>L2 RT - Année 2025-2026</strong></p>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
